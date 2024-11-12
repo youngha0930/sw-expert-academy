@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/youngha/dev_projects/sw-expert-academy/reference_code/data_structures/01_stack/stack'
+relocations:
+  - { offset: 0x19, size: 0x8, addend: 0x0, symName: _stackInit, symObjAddr: 0x0, symBinAddr: 0x100007C00, symSize: 0x14 }
+  - { offset: 0x8E, size: 0x8, addend: 0x0, symName: _top, symObjAddr: 0xDDC, symBinAddr: 0x10000C020, symSize: 0x0 }
+  - { offset: 0xB0, size: 0x8, addend: 0x0, symName: _stack, symObjAddr: 0xDE0, symBinAddr: 0x10000C024, symSize: 0x0 }
+  - { offset: 0xC4, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x138, symBinAddr: 0x100007D38, symSize: 0x108 }
+  - { offset: 0x1A9, size: 0x8, addend: 0x0, symName: _stackPop, symObjAddr: 0xC0, symBinAddr: 0x100007CC0, symSize: 0x78 }
+  - { offset: 0x1DD, size: 0x8, addend: 0x0, symName: _stackPush, symObjAddr: 0x4C, symBinAddr: 0x100007C4C, symSize: 0x74 }
+  - { offset: 0x20B, size: 0x8, addend: 0x0, symName: _stackIsFull, symObjAddr: 0x30, symBinAddr: 0x100007C30, symSize: 0x1C }
+  - { offset: 0x229, size: 0x8, addend: 0x0, symName: _stackIsEmpty, symObjAddr: 0x14, symBinAddr: 0x100007C14, symSize: 0x1C }
+  - { offset: 0x243, size: 0x8, addend: 0x0, symName: _stackInit, symObjAddr: 0x0, symBinAddr: 0x100007C00, symSize: 0x14 }
+...
