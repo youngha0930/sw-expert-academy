@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/youngha/dev_projects/sw-expert-academy/programming_beginner/c_programming_1/L02/04/main'
+relocations:
+  - { offset: 0x19, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007E2C, symSize: 0xBC }
+  - { offset: 0x86, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100007E2C, symSize: 0xBC }
+...
