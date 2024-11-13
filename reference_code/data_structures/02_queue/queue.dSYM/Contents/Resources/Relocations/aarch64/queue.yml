@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/youngha/dev_projects/sw-expert-academy/reference_code/data_structures/02_queue/queue'
+relocations:
+  - { offset: 0x19, size: 0x8, addend: 0x0, symName: _queueInit, symObjAddr: 0x0, symBinAddr: 0x100007B60, symSize: 0x20 }
+  - { offset: 0x8E, size: 0x8, addend: 0x0, symName: _front, symObjAddr: 0xEE4, symBinAddr: 0x10000C020, symSize: 0x0 }
+  - { offset: 0xA4, size: 0x8, addend: 0x0, symName: _rear, symObjAddr: 0xEE8, symBinAddr: 0x10000C024, symSize: 0x0 }
+  - { offset: 0xC6, size: 0x8, addend: 0x0, symName: _queue, symObjAddr: 0xEEC, symBinAddr: 0x10000C028, symSize: 0x0 }
+  - { offset: 0xDA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1BC, symBinAddr: 0x100007D1C, symSize: 0x114 }
+  - { offset: 0x1BF, size: 0x8, addend: 0x0, symName: _queueDequeue, symObjAddr: 0x124, symBinAddr: 0x100007C84, symSize: 0x98 }
+  - { offset: 0x1F3, size: 0x8, addend: 0x0, symName: _queueEnqueue, symObjAddr: 0x90, symBinAddr: 0x100007BF0, symSize: 0x94 }
+  - { offset: 0x221, size: 0x8, addend: 0x0, symName: _queueIsFull, symObjAddr: 0x48, symBinAddr: 0x100007BA8, symSize: 0x48 }
+  - { offset: 0x23F, size: 0x8, addend: 0x0, symName: _queueIsEmpty, symObjAddr: 0x20, symBinAddr: 0x100007B80, symSize: 0x28 }
+  - { offset: 0x259, size: 0x8, addend: 0x0, symName: _queueInit, symObjAddr: 0x0, symBinAddr: 0x100007B60, symSize: 0x20 }
+...
